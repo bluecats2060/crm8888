@@ -7,7 +7,7 @@ public class App
 {
     public static void main( String[] args )
     {
-
+//crud
          Jedis jedis=new Jedis("192.168.150.128",6379);
          jedis.flushAll();
          jedis.set("name","tom");
